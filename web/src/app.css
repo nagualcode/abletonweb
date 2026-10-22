@@ -1,0 +1,63 @@
+:root {
+  color-scheme: dark;
+  --bg: #161616;
+  --panel: #262626;
+  --panel-2: #303030;
+  --slot: #1f1f1f;
+  --slot-sel: #2a2a2a;
+  --line: #0c0c0c;
+  --btn: #3a3a3a;
+  --btn-on: #555;
+  --thumb: #d8d8d8;
+  --text: #e6e6e6;
+  --muted: #9a9a9a;
+  --muted-2: #6a6a6a;
+  --accent: #ffb532;
+  --play: #3ddc84;
+  --rec: #ff3b30;
+  --solo: #4aa8ff;
+  --monitor: #ffd75e;
+  --send: #8f7cff;
+  --meter: #3ddc84;
+  --meter-hot: #ffd23f;
+  --meter-bg: #0d0d0d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font: 14px/1.3 -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+button {
+  font: inherit;
+  color: var(--text);
+  background: var(--btn);
+  border: 0;
+  border-radius: 4px;
+  padding: 6px 10px;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+input {
+  user-select: text;
+  -webkit-user-select: text;
+}

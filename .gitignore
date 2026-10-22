@@ -1,0 +1,8 @@
+node_modules/
+__pycache__/
+*.pyc
+web/dist/
+app/target/
+dist/
+.tmp/
+.DS_Store
